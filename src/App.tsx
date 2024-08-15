@@ -1,5 +1,5 @@
 import{motion} from "framer-motion";
-import './App.css'
+import './index.css'
 import Navbar from "./Components/Navbar.tsx";
 
 function App() {
