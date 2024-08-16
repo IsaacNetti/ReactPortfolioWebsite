@@ -7,13 +7,13 @@ function App() {
 
   return (
     <>
-    <Navbar></Navbar>
+  <Navbar></Navbar>
     <AboutMe></AboutMe>
+    
     <div className="">
       <h1 className="mt-96">Test</h1>
-    <motion.h1 className="text-3xl font-bold underline animate-pulse mt-96" >
-      Hello world!
-    </motion.h1>
+
+  
     </div>
     </>
   )
