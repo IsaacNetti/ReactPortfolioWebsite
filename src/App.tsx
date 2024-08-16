@@ -12,8 +12,6 @@ function App() {
     
     <div className="">
       <h1 className="mt-96">Test</h1>
-
-  
     </div>
     </>
   )

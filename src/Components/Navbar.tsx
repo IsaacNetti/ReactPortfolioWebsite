@@ -5,7 +5,7 @@ import{motion} from "framer-motion";
 function Navbar() {
   return (
     <>
-    <motion.div className='sticky top-0 w-min text-nowrap float-right p-3 bg-paperItem bg-cover bg-no-repeat' initial={{ x:200, y:-50 }} animate={{x:0, y:0}}>
+    <motion.div className='fixed top-0 right-0 w-min text-nowrap p-3 bg-paperItem bg-cover bg-no-repeat' initial={{ x:200, y:-50 }} animate={{x:0, y:0}}>
       <Disclosure>
         {({}) => (
           <>
@@ -14,7 +14,7 @@ function Navbar() {
                   <Bars3Icon className='w-8 h-8' />
               </DisclosureButton>
             </div>
-            <DisclosurePanel className='fixed inset-0 flex flex-col items-center justify-center sm:hidden z-30 bg-paperBackground1'>
+            <DisclosurePanel className='fixed inset-0 flex flex-col items-center justify-center sm:hidden z-30 bg-paperBackground'>
             <DisclosureButton className='absolute top-4 right-4'>
                 <XMarkIcon className='w-8 h-8' />
               </DisclosureButton>
@@ -36,8 +36,8 @@ function Navbar() {
         </ul>
       </div>
     </motion.div>
-    <motion.div className='bg-hand bg-contain bg-no-repeat float-right w-8 h-8'  animate={{x:[300,200,200,500], y:[-50,10,10,200]}}>
-        <p>.</p>
+    <motion.div className='fixed top-10 right-10 bg-hand bg-contain bg-no-repeat w-100 h-100 z-10' animate={{x:[100,0,0,100], y:[-100,-10,-10,100]}}>
+        <p className='w-10'>-</p>
     </motion.div>
   </>
   );
