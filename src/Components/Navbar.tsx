@@ -30,9 +30,9 @@ function Navbar() {
 
       <div className='hidden sm:flex justify-between items-center'>
         <ul className='flex flex-row'>
-          <motion.li whileHover={{ scale: 1.1 }} className='mr-3'>Isaac Netti</motion.li>
-          <motion.li whileHover={{ scale: 1.1 }} className='mr-3'>Projects</motion.li>
-          <motion.li whileHover={{ scale: 1.1 }} className='mr-5'>Hire me</motion.li>
+          <motion.li whileHover={{ scale: 1.1 }} className='mr-3'><a href='#'>Isaac Netti</a></motion.li>
+          <motion.li whileHover={{ scale: 1.1 }} className='mr-3'><a href='#'>Projects</a></motion.li>
+          <motion.li whileHover={{ scale: 1.1 }} className='mr-5'><a href='#'>Hire me</a></motion.li>
         </ul>
       </div>
     </motion.div>
