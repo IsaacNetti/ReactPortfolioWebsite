@@ -7,7 +7,7 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        display: ["Just+Another+Hand","cursive"],
+        display: ["Just Another Hand","cursive"],
       },
       backgroundImage: {
         'paperItem': "url('src/assets/images/paperItem.png')",
