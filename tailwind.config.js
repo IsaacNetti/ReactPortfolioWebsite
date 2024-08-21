@@ -7,7 +7,7 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        display: ["Just Another Hand","cursive"],
+        display: ["Nanum Pen Script","cursive"],
       },
       backgroundImage: {
         'paperItem': "url('src/assets/images/paperItem.png')",
