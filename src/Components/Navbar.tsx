@@ -15,14 +15,14 @@ function Navbar() {
               </DisclosureButton>
             </div>
             <DisclosurePanel className='fixed inset-0 flex flex-col items-center justify-center sm:hidden bg-paperBackground'>
-            <DisclosureButton className='absolute top-4 right-4'>
-                <XMarkIcon className='w-8 h-8' />
-              </DisclosureButton>
+            <DisclosureButton className=''>
+                <XMarkIcon className='absolute top-4 right-4 w-8 h-8' />
               <ul className='text-center'>
-                <motion.li whileHover={{ scale: 1.1 }} className='my-4 text-lg'>Isaac Netti</motion.li>
-                <motion.li whileHover={{ scale: 1.1 }} className='my-4 text-lg'>Projects</motion.li>
-                <motion.li whileHover={{ scale: 1.1 }} className='my-4 text-lg'>Hire me</motion.li>
+                <motion.li whileHover={{ scale: 1.1 }} className='my-4 text-lg'><a href='#'>Isaac Netti</a></motion.li>
+                <motion.li whileHover={{ scale: 1.1 }} className='my-4 text-lg'><a href='#projects'>Projects</a></motion.li>
+                <motion.li whileHover={{ scale: 1.1 }} className='my-4 text-lg'><a href='#'>Hire me</a></motion.li>
               </ul>
+              </DisclosureButton>
             </DisclosurePanel>
           </>
         )}
@@ -31,7 +31,7 @@ function Navbar() {
       <div className='hidden sm:flex justify-between items-center'>
         <ul className='flex flex-row'>
           <motion.li whileHover={{ scale: 1.1 }} className='mr-3'><a href='#'>Isaac Netti</a></motion.li>
-          <motion.li whileHover={{ scale: 1.1 }} className='mr-3'><a href='#'>Projects</a></motion.li>
+          <motion.li whileHover={{ scale: 1.1 }} className='mr-3'><a href='#projects'>Projects</a></motion.li>
           <motion.li whileHover={{ scale: 1.1 }} className='mr-5'><a href='#'>Hire me</a></motion.li>
         </ul>
       </div>
