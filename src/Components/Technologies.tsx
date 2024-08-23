@@ -6,6 +6,7 @@ export default function Technologies() {
     const variants ={
         place:{
             y:-10,
+            rotate:-5,
             transition: {
                 
             }

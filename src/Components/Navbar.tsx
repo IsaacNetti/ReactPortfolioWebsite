@@ -20,7 +20,7 @@ function Navbar() {
               <ul className='text-center'>
                 <motion.li whileHover={{ scale: 1.1 }} className='my-4 text-lg'><a href='#'>Isaac Netti</a></motion.li>
                 <motion.li whileHover={{ scale: 1.1 }} className='my-4 text-lg'><a href='#projects'>Projects</a></motion.li>
-                <motion.li whileHover={{ scale: 1.1 }} className='my-4 text-lg'><a href='#'>Hire me</a></motion.li>
+                <motion.li whileHover={{ scale: 1.1 }} className='my-4 text-lg'><a href='#hireMe'>Hire me</a></motion.li>
               </ul>
               </DisclosureButton>
             </DisclosurePanel>
@@ -32,7 +32,7 @@ function Navbar() {
         <ul className='flex flex-row'>
           <motion.li whileHover={{ scale: 1.1 }} className='mr-3'><a href='#'>Isaac Netti</a></motion.li>
           <motion.li whileHover={{ scale: 1.1 }} className='mr-3'><a href='#projects'>Projects</a></motion.li>
-          <motion.li whileHover={{ scale: 1.1 }} className='mr-5'><a href='#'>Hire me</a></motion.li>
+          <motion.li whileHover={{ scale: 1.1 }} className='mr-5'><a href='#hireMe'>Hire me</a></motion.li>
         </ul>
       </div>
     </motion.div>
